@@ -1,33 +1,15 @@
-# API de Geração de QR Codes
+# QR Code Generation API
 
-Esta API permite gerar QR codes a partir de um texto ou URL. Ela oferece duas funcionalidades principais:
-1. Gerar um QR code em formato **base64** (JSON).
-2. Baixar um QR code como uma imagem **PNG**.
-
----
-
-## Tecnologias Utilizadas
-
-- **Go (Golang)**: Linguagem de programação usada para desenvolver a API.
-- **Gin**: Framework web para criar rotas e gerenciar requisições HTTP.
-- **go-qrcode**: Biblioteca para gerar QR codes.
----
-
-## Como Usar
-
-### Pré-requisitos
-
-- **Go**: Instale o Go a partir do [site oficial](https://golang.org/dl/).
-- **Git**: Instale o Git a partir do [site oficial](https://git-scm.com/).
+A simple and efficient API to generate QR codes from text or URLs. Built with **Go (Golang)**, this API offers two main features:
+1. **Generate QR code in base64 (JSON)**: Perfect for integration with other applications.
+2. **Download QR code as a PNG image**: Ideal for direct use in browsers or apps.
 
 ---
 
-### Passo a Passo
+## Key Features
 
-#### 1. Clone o Repositório
+- **Fast QR code generation**: Convert text or URLs into QR codes in seconds.
+- **JSON format**: Receive the QR code in base64 for easy integration.
+- **PNG image download**: Download the QR code directly as an image.
 
-Clone o repositório para o seu ambiente local:
-
-```bash
-git clone https://github.com/seu-usuario/qr-code-api.git
-cd qr-code-api
+---
